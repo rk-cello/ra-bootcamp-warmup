@@ -139,6 +139,3 @@ gradrate_data <- combined_grad_91to10
 sem_covar_data <- left_join(semester_data, covariates_data, join_by("unitid", "year"))
 master_data <- left_join(sem_covar_data, gradrate_data, join_by("unitid", "year"))
 
-
-
-setwd("/Users/reinakishida/Desktop/warmup training package/01_data/ra-bootcamp-warmup")
