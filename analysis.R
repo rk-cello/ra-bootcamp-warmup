@@ -66,6 +66,3 @@ scatter_plot(master_data_fem_white_share$white_share)+
 lm <- lm(master_data_fem_white_share$tot_gradrate_4yr ~ master_data_fem_white_share$post_intro)
 summary(lm)
 
-
-
-setwd("/Users/reinakishida/Desktop/warmup training package/01_data/ra-bootcamp-warmup")
